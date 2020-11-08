@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src="../js/compilerender.js" async></script>
+    <script src="js/compilerender.js" async></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/jquery-1.12.0.min.js"></script> -->
@@ -50,7 +50,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" onclick="sliderclose()">
         <a class="navbar-brand" href="#">
-        <img style="border-radius: 50%;" src="../Gallery/logo.jpeg" width="50" height="40" alt="Logo">&nbsp;
+        <img style="border-radius: 50%;" src="Gallery/logo.jpeg" width="50" height="40" alt="Logo">&nbsp;
         </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -393,7 +393,7 @@
        </script>
    
 
-    <script src="../js/compiler.js"></script>
+    <script src="js/compiler.js"></script>
 
     <?php
         if(isset($_SESSION['name'])){
