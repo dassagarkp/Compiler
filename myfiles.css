@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+
+}
+thead{
+    text-align: center;
+    background-color: teal;
+    color: wheat;
+    font-size: larger;
+    
+}
+tbody{
+    text-align: center;
+    background-color: thistle;
+}
+tbody tr td{
+    margin: 0;
+    padding: 5px 0 5px 0;
+}
